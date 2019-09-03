@@ -7,7 +7,6 @@ CREATE TABLE USUARIO (
     SENHA VARCHAR(32) NOT NULL
 );
 
-ALTER TABLE USUARIO;
 INSERT INTO USUARIO (USUARIO, SENHA) VALUES ("matheus", md5("mecontrata"));
 
 CREATE TABLE MENSAGEM (
@@ -16,7 +15,6 @@ CREATE TABLE MENSAGEM (
     TEXTO VARCHAR(500) NOT NULL
 );
 
-ALTER TABLE MENSAGEM;
 INSERT INTO MENSAGEM (TIPO, TEXTO) VALUES ("sugestao", "Trocar todas as fontes para Wingdings");
 INSERT INTO MENSAGEM (TIPO, TEXTO) VALUES ("elogio", "Gostei dos seus projetos!");
 INSERT INTO MENSAGEM (TIPO, TEXTO) VALUES ("duvida", "Qual é o sentido da vida?");
